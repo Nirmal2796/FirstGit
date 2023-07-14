@@ -47,3 +47,7 @@ for (var i = 0; i < items.length; i++){
 
 items[2].style.backgroundColor = 'Green';
 
+// GET ELEMENT BY TAG NAME;
+var item = document.getElementsByTagName('li');
+item[4].style.color = 'blue';
+item[4].style.fontWeight = 'bold';
